@@ -1,0 +1,31 @@
+body {
+    background-color: #62757B !important; /* Light gray background for a softer look */
+    color:white;
+}
+.container {
+    padding-top: 2rem; /* Adds some space on the top */
+    padding-bottom: 2rem; /* Adds padding on the bottom */
+}
+.list-group-item {
+    transition: transform .2s; /* Animation for hover effect */
+}
+.list-group-item:hover {
+    transform: scale(1.01); /* Slightly scale up list items on hover */
+    background-color: #e9ecef; /* Lighter background on hover */
+}
+/* Align status to the right */
+.status-column {
+    text-align: right;
+}
+
+.btn-primary {
+    background-color: #505050;
+}
+
+.btn-primary:hover {
+    background-color:#696969;
+}
+
+btn btn-primary btn-sm:hover {
+    background-color: #696969;
+}

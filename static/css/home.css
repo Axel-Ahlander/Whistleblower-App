@@ -1,0 +1,64 @@
+
+
+video.background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
+.content-box {
+  padding: 40px; 
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 15px; 
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.main-section {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.submit-report-button {
+  padding: 15px 30px; 
+  font-size: 1.5rem; 
+  cursor: pointer;
+  background-color: #505050;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px; 
+  transition: background-color 0.3s ease; 
+}
+
+.submit-report-button:focus, .submit-report-button:active {
+    background-color: #696969 !important; /* Darker grey for focus and active states */
+    border-color: #696969;
+}
+
+.btn-primary.submit-report-button:hover {
+    background-color: #696969; /* Fallback if variable isn't set */
+    color: var(--bs-btn-hover-color, #ffffff); /* Fallback if variable isn't set */
+    border-color:#696969;
+}
+
+.btn-primary {
+    border-color: #696969;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+

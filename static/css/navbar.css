@@ -1,0 +1,38 @@
+/* navbar.css */
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
+
+nav .d-flex {
+  padding: 0.15rem 1rem;
+  font-weight: bold;
+}
+
+nav .btn {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+nav .btn:hover, nav .btn:focus, nav .btn:active {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  outline: none; /* Removes the outline that might appear on focus */
+}
+
+
+nav, nav .btn {
+  font-family: inherit;
+}
+
+body {
+  padding-top: 4rem;
+}
